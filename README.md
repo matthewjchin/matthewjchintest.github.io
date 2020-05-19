@@ -14,6 +14,7 @@ San Francisco, CA
 8 March 2020:<br>
     - Major/Minor Change; additional information <br>
     - Education and Coursework <br>
+18 May 2020: Additional details inputted <br>
 
 
 
