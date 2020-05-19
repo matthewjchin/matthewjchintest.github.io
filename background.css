@@ -1,5 +1,9 @@
 body {
-    background-color: gray;
+    background-color: darkgray;
+    font: 9px Helvetica, sans-serif;
 }
 
+head {
+    color: blue;
+}
 
