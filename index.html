@@ -55,67 +55,56 @@
 </div>
 
 
-<div id="ABOUT ME" class="linkcontent">
+<div id="ABOUT ME" class="tabcontent">
     <h3>ABOUT ME</h3>
     <p>My name is Matthew Chin, and I am a senior student at the University of San Francisco majoring in Mathematics and minoring in Computer Science, and I am expected to graduate in May 2021.</p> 
-
-    <p>After college, I hope to work in big tech in the fields of algorithms, software engineering or development, data science, and machine learning. I have aspirations to attend graduate school, possibly in business, computer science, or data science, and have proficient knowledge in linear algebra, data structures and algorithms, database development, and customer service troubleshooting.</p>
-    
+    <p>After college, I hope to work in big tech in the fields of algorithms, software engineering or development, data science, and machine learning. I have aspirations to attend graduate school, possibly in business, computer science, or data science, and have proficient knowledge in linear algebra, data structures and algorithms, database development, and customer service troubleshooting.</p>  
     <p>At my university, I am a student help desk technician for their Information Technology Services (ITS), where I troubleshoot basic problems with account logins, software installation, and managing inventory. In today's context with regards to COVID-19, I also respond to clients who may have issues accessing, setting up, or installing Zoom for class meetings and conferences.</p> 
-
-    <p>Aside from my work at USF, I have additional work experience. I interned at Carl Zeiss X-Ray Microscopy (ZXRM) where I developed a proof of concept for an inventory management database system. using a barcode system which includes scanning location of items and, if necessary, any changes made. I have tutored middle and high school students in the Spanish language and in Mathematics, ranging from sixth grade  math all the way to Pre-Calculus and Calculus. I am also an Amazon Prime Now Shopper at Whole Foods Market, employed by Amazon, Inc. in Northern California. </p>
-
+    <p>Aside from my work at USF, I have additional work experience. I interned at Carl Zeiss X-Ray Microscopy (XRM) where I developed a proof of concept for an inventory management database system  using a barcode language which includes scanning location of items and, if necessary, any changes made. I have tutored middle and high school students in the Spanish language and in Mathematics, ranging from sixth grade  math all the way to Pre-Calculus and Calculus. I am also an Amazon Prime Now Shopper at Whole Foods Market, employed by Amazon, Inc. in Northern California. </p>
 </div>
     
-<div id="WORK EXPERIENCE" class="linkcontent">
-    <h3>WORK EXPERIENCE</h3>
-    
-    Aug 2017 - present&#8195; ITS-CSS Student Help Desk Specialist, University of San Francisco<br>
-
-    Mar 2020 - present&#8195; Whole Foods Prime Now Shopper, Amazon<br>
- 
-    Jul 2018 - Aug 2018&#8195; Intern, Project Manager/Database Developer, Carl Zeiss X-Ray Microscopy, Inc.<br>
-
-    Jun 2016 - Dec 2017&#8195; Tutor, Summit Tutoring Center<br>
-
+<div id="WORK EXPERIENCE" class="tabcontent">
+    <h3>WORK EXPERIENCE</h3>   
+    Aug 2017 - present&#8195;&#8195; ITS-CSS Student Help Desk Specialist, University of San Francisco<br>
+    Mar 2020 - present&#8195;&#8195; Whole Foods Prime Now Shopper, Amazon<br> 
+    Jul 2018 - Aug 2018&#8195;&#8195; Intern, Project Manager/Database Developer, Carl Zeiss X-Ray Microscopy, Inc.<br>
+    Jun 2016 - Dec 2017&#8195;&#8195; Tutor, Summit Tutoring Center<br>
 </div>
 
 
-<div id="FOLLOW ME" class="linkcontent">
+<div id="FOLLOW ME" class="tabcontent">
     <h3>FOLLOW ME</h3>
      <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!-- Add font awesome icons -->
-    <a href="https://www.facebook.com/matthew.j.chin.813" class="fa fa-facebook"></a>Facebook<br>
-    <a href="https://www.twitter.com/matthewjchin" class="fa fa-twitter"></a>Twitter<br>
-    <a href="https://www.instagram.com/matthewjchin/" class="fa fa-instagram"></a>Instagram<br>
-    <a href="https://www.youtube.com/channel/UC5PqP0ZgSTs4SAObFcxdAmA?view_as=subscriber" class="fa fa-youtube"></a>YouTube<br>
-    <a href="https://www.reddit.com/user/mattjchin" class="fa fa-reddit"></a>Reddit<br>
-    <a href="https://www.linkedin.com/in/matthew-j-chin/" class="fa fa-linkedin"></a>LinkedIn<br>
-
+    <a href="https://www.facebook.com/matthew.j.chin.813" class="fa fa-facebook"></a> Facebook<br>
+    <a href="https://www.twitter.com/matthewjchin" class="fa fa-twitter"></a> Twitter<br>
+    <a href="https://www.instagram.com/matthewjchin/" class="fa fa-instagram"></a> Instagram<br>
+    <a href="https://www.youtube.com/channel/UC5PqP0ZgSTs4SAObFcxdAmA?view_as=subscriber" class="fa fa-youtube"></a> YouTube<br>
+    <a href="https://www.reddit.com/user/mattjchin" class="fa fa-reddit"></a> Reddit<br>
+    <a href="https://www.linkedin.com/in/matthew-j-chin/" class="fa fa-linkedin"></a> LinkedIn<br>
+    <a href="https://github.com/matthewjchin" class="fa fa-github"></a> GitHub<br>
 </div>
 
 
 <script>
-function openLink(thing, TabName){ 
-    var i, content, links;
-    content = document.getElementsByClassName("linkcontent");
-    for (i = 0; i < content.length; i++) {
-        content[i].style.display = "none";
+function openLink(thing, tabName){ 
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
     }
-    links = document.getElementsByClassName("tablinks");
-    for (i = 0; i < links.length; i++) {
-        links[i].className = links[i].className.replace(" active", ""):
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", ""):
     }
     document.getElementById(tabName).style.display = "block";
     thing.currentTarget.className += " active";
-
 }
 </script>
 
-
-©2020 Matthew Chin. Powered by GitHub.
+<br>
+©2020 Matthew Chin. Powered by <a href="https://www.github.com/"></a>GitHub.<br>
 </body>
 </html>
 
