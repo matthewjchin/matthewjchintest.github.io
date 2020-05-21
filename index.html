@@ -42,7 +42,7 @@ body, html {
 
 #About {background-color: #FF0000;}
 #Work {background-color: #0000FF;}
-#Follow {background-color: #FFD700;}
+#Follow {background-color: #008000;}
 
 </style>
 </head>
@@ -53,7 +53,7 @@ body, html {
 <div class="tab">
     <button class="tablinks" onclick="openPage('About', this, 'red')" id="defaultOpen">ABOUT ME</button>
     <button class="tablinks" onclick="openPage('Work', this, 'blue')">WORK EXPERIENCE</button>
-    <button class="tablinks" onclick="openPage('Follow', this, 'gold')">FOLLOW ME</button>
+    <button class="tablinks" onclick="openPage('Follow', this, 'green')">FOLLOW ME</button>
 </div>
 
 
@@ -89,6 +89,7 @@ body, html {
     <a href="https://github.com/matthewjchin" class="fa fa-github"></a> GitHub<br>
 </div>
 
+<!-- Script run for each tab containing different content.  -->
 <script>
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
@@ -104,11 +105,12 @@ function openPage(pageName,elmnt,color) {
   elmnt.style.backgroundColor = color;
 }
 
+// Opens default page if that is what is first clicked on. Opens "ABOUT ME" tab content first.
 document.getElementById("defaultOpen").click();
 </script>
 
 <br>
-©2020 Matthew Chin. Powered by <a href="https://www.github.com/"></a>GitHub.<br>
+©2020 Matthew Chin. Powered by GitHub.<br>
 </body>
 </html>
 
