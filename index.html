@@ -42,54 +42,93 @@ body, html {
 
 #About {background-color: red;}
 #Work {background-color: blue;}
-#Follow {background-color: green;}
+#Community{background-color: chocolate;}
+#Follow {background-color: grey;}
 
 </style>
 </head>
 <body>
 
-
-
 <div class="tab">
     <button class="tablinks" onclick="openPage('About', this, 'red')" id="defaultOpen">ABOUT ME</button>
     <button class="tablinks" onclick="openPage('Work', this, 'blue')">WORK EXPERIENCE</button>
+    <button class="tablinks" onclick="openPage('Community', this, 'chocolate')">COMMUNITY SERVICE</button>
     <button class="tablinks" onclick="openPage('Follow', this, 'green')">FOLLOW ME</button>
     <!--button in gold color for volunteer experience / interests / other projects -->
 </div>
 
 
-
 <div id="About" class="tabcontent">
     <h3>ABOUT ME</h3>
-    <p>My name is Matthew Chin, and I am a senior student at the University of San Francisco majoring in Mathematics and minoring in Computer Science, and I am expected to graduate in May 2021. After college, I hope to work in big tech in the fields of algorithms, software engineering or development, data science, and machine learning. I have aspirations to attend graduate school, possibly in business, computer science, or data science, and have proficient knowledge in linear algebra, data structures and algorithms, database development, and customer service troubleshooting.At my university, I am a student help desk technician for their Information Technology Services (ITS), where I troubleshoot basic problems with account logins, software installation, and managing inventory. In today's context with regards to COVID-19, I also respond to clients who may have issues accessing, setting up, or installing Zoom for class meetings and conferences.Aside from my work at USF, I have additional work experience. I interned at Carl Zeiss X-Ray Microscopy (XRM) where I developed a proof of concept for an inventory management database system  using a barcode language which includes scanning location of items and, if necessary, any changes made. I have tutored middle and high school students in the Spanish language and in Mathematics, ranging from sixth grade  math all the way to Pre-Calculus and Calculus. I am also an Amazon Prime Now Shopper at Whole Foods Market, employed by Amazon, Inc. in Northern California. </p>
-</div>
 
+    <p>
+    My name is Matthew Chin, and I am a senior student at the University of San Francisco majoring in Mathematics and minoring in Computer Science, and I am expected to graduate in May 2021. 
+    After college, I hope to work in big tech in the fields of algorithms, software engineering or development, data science, and machine learning. 
+    </p>
+    
+    <p> 
+    I have aspirations to attend graduate school, possibly in business, computer science, or data science, and have proficient knowledge in linear algebra, data structures and algorithms, 
+    database development, and customer service troubleshooting. 
+    At my university, I am a student help desk technician for their Information Technology Services (ITS), where I troubleshoot basic problems with account logins, software installation, 
+    and managing inventory. 
+    In today's context with regards to COVID-19, I also respond to clients who may have issues accessing, setting up, or installing Zoom for class meetings and conferences.
+    </p>
+       
+    <p>
+    Aside from my work at USF, I have additional work experience. I interned at Carl Zeiss X-Ray Microscopy (XRM) where 
+    I developed a proof of concept for an inventory management database system using a barcode language which includes scanning location of items and, if necessary, any changes made. 
+    I have tutored middle and high school students in the Spanish language and in Mathematics, ranging from sixth grade  math all the way to Pre-Calculus and Calculus. 
+    I am also an Amazon Prime Now Shopper at Whole Foods Market, employed by Amazon, Inc. in Northern California. 
+    </p>
+
+</div>
 
 
 <div id="Work" class="tabcontent">
     <h3>WORK EXPERIENCE</h3>   
+
     Aug 2017 - present&#8195;&#8195; ITS-CSS Student Help Desk Specialist, University of San Francisco<br>
-        - Answer phone calls, reply to emails, install software, and troubleshoot computer issues for University students and employees.
-        - Conduct computer lab sweeps, re-image, and update University assets in assistance with Field Support team. 
-
-    <br>
+    
     Mar 2020 - present&#8195;&#8195; Whole Foods Prime Now Shopper, Amazon<br> 
-        - Prepare Amazon Prime Now grocery item orders for delivery to customers at an efficient rate of time. 
-        - Communicates with clients and employees over modification and categorization of items in orders in system. 
-
-    <br>
+ 
     Jul 2018 - Aug 2018&#8195;&#8195; Intern, Project Manager/Database Developer, Carl Zeiss X-Ray Microscopy, Inc.<br>
-        - Created an initial proof of concept for inventory management database system.
-        - Developed a barcode system with UPC barcode language to track supplies with a standard operating procedure. 
-        - Used Python language and Microsoft Office Products such as Word, Excel and Visio.
 
-    <br>
     Jun 2016 - Dec 2017&#8195;&#8195; Tutor, Summit Tutoring Center<br>
-        - Helped students understand concepts in Geometry, Algebra II, and 7th and 8th Grade Common Core Math.
-        - Guided middle and high school students with concepts in Spanish vocabulary, grammar, speech, and writing. 
+
+    <h3>EDUCAION</h3>
+
+    Aug 2017 - present&#8195;&#8195; University of San Francisco (expected graduation May 2021)<br> 
+    
+    <p>
+        Active on campus, I serve on the executive board of two tech-oriented clubs: Google Developer Student Clubs and USF's Hackers Club.
+        Respectively, I am the Media and Marketing Chair and Events Coordinator, setting up meetings, maintaining social media accounts, and communicating
+        with other members in promoting interest to bystanders who want to know more of the club. Involved in promoting computer programming and coding 
+        through the lens of cybersecurity and Google Developer products including but not limited to Cloud, Firebase, working on the terminal, etc. 
+            
+    </p>
+
+    Aug 2013 - Jun 2017&#8195;&#8195; Dougherty Valley High School, High School Diploma<br>
+    
+    <p>
+        I ran cross country and track and field during a majority of my years in high school. For 7.5 of my 8 semesters of high school, I did volunteer work
+        through California Scholarship Federation (CSF), and graduated with high honors academically along with lifetime membership highest honors for the 
+        community organization. I participated in speech and debate and also played the violin for the school's orchestra. 
+    </p>
 
 </div>
 
+
+<div id="Community" class="tabcontent">
+    <h3>COMMUNITY SERVICE</h3>
+
+    <p> 
+    Across the Bay Area, I have volunteered at both San Francisco-Marin and Second Harvest Food Banks. 
+    In high school, I participated in California Scholarship Federation (CSF), and received Lifetime Membership Highest Honors after completion
+    of seven-and-a-half semesters of scholarship for service. It is important to give back to those in need while balancing academics and other
+    extracurricular activities.
+    </p>
+
+</div>
 
 
 <div id="Follow" class="tabcontent">
@@ -113,17 +152,17 @@ body, html {
 <!-- Script run for each tab containing different content. -->
 <script>
 function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
 }
 
 // Opens default page if that is what is first clicked on. Opens "ABOUT ME" tab content first.
