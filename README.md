@@ -20,7 +20,10 @@ Mathematics Major with Minor in Computer Science<br>
 20 May 2020: <br>
     - Updates to README file <br>
     - Color change, comments added <br>
-
+21 May 2020: <br>
+    - Additional pics added <br>
+    - Leadership tab added <br>
+    - More details and formatting <br>
 
 
 
