@@ -28,6 +28,6 @@ Mathematics Major with Minor in Computer Science<br>
     &#8195;- Insertion of additional images <br>
     &#8195;- Removal of site tabs <br>
     &#8195;- Use of Jekyll template <br>
-
+29 May 2020: This site will no longer be made public but as a testing ground.<br>
 
 
